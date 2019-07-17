@@ -1,12 +1,250 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/main.css">
   <title>Fitness</title>
 </head>
+
 <body>
-  
+  <div class="wrapper">
+
+    <header class="header">
+      <div class="container header__container">
+        <div class="header__logo">
+          <a href="index.html" class="logo">
+            <img src="img/afrodita_logo.png" alt="Афродита">
+          </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--unactiv nav__link--main--icon">
+                Главная
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--feed--icon">
+                Отзывы
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--service--icon">
+                Услуги
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10 </a>
+          <div class="contacts__work-shedule">График работы</div>
+        </address>
+      </div>
+    </header>
+
+    <main class="maincontent">
+      <div class="banner">
+        <div class="container">
+          <div class="banner__content">
+            <img class="banner__main-pic" src="../img/banner.png" alt="Главный логотип">
+          </div>
+        </div>
+      </div>
+
+      <div class="feauteres">
+        <div class="container">
+          <h2 class="section__title">Особенности</h2>
+          <ul class="feauteres__list">
+            <li class="feauteres__item">
+              <img src="./img/feauteres-icon/flower.png" class="feauteres__icon">
+              <!-- <div class="feauteres__icon"></div> -->
+              <div class="feauteres__content">
+                <h5>Уникальность</h5>
+                <p>Мы делаем все, для вашего комфорта</p>
+                <ul class="feauteres__desc feauteres__desc-one">
+                  <li>Питание включено</li>
+                  <li>Багаж (5 кг)</li>
+                  <li>Душ/баня</li>
+                </ul>
+              </div>
+            </li>
+            <li class="feauteres__item">
+              <img src="./img/feauteres-icon/mark-as-favorite-star.png" alt="" class="feauteres__icon">
+              <div class="feauteres__content">
+                <h5>Прeмиум-класс</h5>
+                <p>Наш зал оборудован тренажёрами A-класса </p>
+                <ul class="feauteres__desc feauteres__desc-two">
+                  <li>Качество</li>
+                  <li>Продуктивность</li>
+                  <li>Результат</li>
+                </ul>
+              </div>
+            </li>
+            <li class="feauteres__item">
+              <img src="./img/feauteres-icon/painter-palette.png" alt="" class="feauteres__icon">
+              <div class="feauteres__content">
+                <h5>Личный тренер</h5>
+                <p>Тренер сделает все для вашего результат</p>
+                <ul class="feauteres__desc feauteres__desc-three">
+                  <li>Программа</li>
+                  <li>Питание</li>
+                  <li>План тренировок</li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="news">
+        <div class="container">
+          <h2 class="section__title">Последние новости</h2>
+          <div class="news__main">
+            <ul class="news__list">
+              <li class="news__item">
+                <div class="section-img">
+                  <img src="./img/news-pic/1-pic.jpg" class="news__item-pic" alt="">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">12.10.2016</div>
+                  <h3 class="news__title">Похудение с помощью бодибилдинга!</h3>
+                  <p class="news__text">
+                    Вдыхание одного литра кислорода эквивалентно «сжиганию» 5 калорий, однако в минуту при самом высоком
+                    темпе движений атлет способен вдохнуть не более 3-4 литров кислорода.
+                    Это крайне важно для каждого начинающего атлета.
+                  </p>
+                </div>
+              </li>
+              <li class="news__item">
+                <div class="section-img">
+                  <img src="./img/news-pic/2-pic.jpg" alt="" class="news__item-pic">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">01.02.2016</div>
+                  <h3 class="news__title">Заражай друзей, получай призы!</h3>
+                  <p class="news__text">
+                    Дополнительно для Вас: пользование сауной и предоставление средств личной гигиены, пользование
+                    баром, таблица замеров, дружеская атмосфера и постоянная поддержка.
+                    Мы запотимся о вашем комфорте и предлагаем испытать это уже сегодня!
+                  </p>
+                </div>
+              </li>
+              <li class="news__item">
+                <div class="section-img">
+                  <img src="./img/news-pic/3-pic.jpg" alt="" class="news__item-pic">
+                </div>
+                <div class="news__desc">
+                  <div class="news__date">22.12.2015</div>
+                  <h3 class="news__title">Фрилансер? Выпрями спину!</h3>
+                  <p class="news__text">
+                    Создайте рабочее место под себя. Вот этот инструмент поможет определить, что подходит именно вам и
+                    вашему организму.
+                    Используйте специальную подставку для ноутбука, если вы проводите за ним больше 2 часов. Настройте
+                    высоту и яркость монитора!
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <acide class="sidebar">
+            <h3 class="news__top-title">Топ новостей</h3>
+            <p class="news__top-title news__top-title-two-line">за сентябрь</p>
+            <ul class="news__top-list">
+              <li class="news__top-item">
+                <a href="" class="news__top-link">
+                  <img src="./img/news-pic/4-pic.jpg" alt="" class="news__pic">
+                </a>
+              </li>
+              <li class="news__top-item">
+                <a href="" class="news__top-link">
+                  <img src="./img/news-pic/5-pic.jpg" alt="" class="news__pic">
+                </a>
+              </li>
+              <li class="news__top-item">
+                <a href="" class="news__top-link">
+                  <img src="./img/news-pic/6-pic.jpg" alt="" class="news__pic">
+                </a>
+              </li>
+            </ul>
+          </acide>
+          <div class="pagination">
+            <div class="pagination__display">
+              Страница 1 из 7
+            </div>
+            <div class="pagination__controls">
+              <a href="#" class="pagination__prev">&lt; </a>
+              <ul class="pagination__pages-list">
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">1</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link ">2</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">3</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">4</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">5</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">6</a>
+                </li>
+                <li class="pagination__pages-item">
+                  <a href="#" class="pagination__pages-link">7</a>
+                </li>
+              </ul>
+              <a href="#" class="pagination__next">&gt; </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="footer">
+      <div class="container">
+        <div class="autor__work">
+          <p class="autor__work-text">Сделано с любовью и старанием
+            на курсе «HTML + CSS» в LoftSchool.
+            Автор работы: Прохладов Вадим</p>
+        </div>
+        <img src="./img/afrodita_logo.png" alt="" class="footer__logo">
+        <div class="networks">
+          <h4 class="networks__title">
+            Наши социальные сети
+          </h4>
+          <ul class="networks__list">
+            <li class="networrks__item">
+              <a href="./img/social-icon/vk.png" class="networks__link networks__link--icon-vk">
+              </a>
+            </li>
+            <li class="networrks__item">
+              <a href="#" class="networks__link">
+              </a>
+            </li>
+            <li class="networrks__item">
+              <a href="#" class="networks__link">
+              </a>
+            </li>
+            <li class="networrks__item">
+              <a href="#" class="networks__link">
+              </a>
+            </li>
+            <li class="networrks__item">
+              <a href="#" class="networks__link">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
