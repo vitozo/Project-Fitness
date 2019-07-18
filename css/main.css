@@ -61,8 +61,8 @@
 
 @font-face {
   font-family: 'roboto';
-  src: url('roboto-bold-webfont.woff2') format('woff2'),
-       url('roboto-bold-webfont.woff') format('woff');
+  src: url('../roboto-bold-webfont.woff2') format('woff2'),
+       url('../roboto-bold-webfont.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 
@@ -70,8 +70,8 @@
 
 @font-face {
   font-family: 'roboto';
-  src: url('roboto-light-webfont.woff2') format('woff2'),
-       url('roboto-light-webfont.woff') format('woff');
+  src: url('../roboto-light-webfont.woff2') format('woff2'),
+       url('../roboto-light-webfont.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 
@@ -340,6 +340,12 @@ vertical-align: middle;
   line-height: 30px;
 }
 
+.sidebar {
+  display: inline-block;
+  vertical-align: ;
+  text-align: left;
+}
+
 .news__top-title {
   color: #221f1f;
   font-size: 12px;
@@ -364,7 +370,7 @@ vertical-align: middle;
   font-size: 14px;
   font-weight: 300;
   color: #656464;
-  line-height: 21px;
+  line-height: 21px; 
 }
 
 .pagination__pages-list {
@@ -377,6 +383,10 @@ vertical-align: middle;
   vertical-align: middle;
 }
 
+.pagination__pages-link {
+  color: #221f1f;;
+  text-decoration: none;
+}
 
 .footer {
   background: #131415;
