@@ -330,6 +330,8 @@ vertical-align: middle;
 }
 
 .news__title {
+    font: 16px/1.42 'roboto', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
   font-weight: 700;
   line-height: 21px;
   margin: 0;
